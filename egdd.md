@@ -1,4 +1,4 @@
-# Game Name
+# The Prince Of Piano
 
 ## Elevator Pitch
 *You are a concert pianist in competition, who must learn to play the piano to win each round. Starting with 2 note songs, up to entire pieces, you will learn to associate piano notes with their keys, and eventually learn to play sheet music.* 
