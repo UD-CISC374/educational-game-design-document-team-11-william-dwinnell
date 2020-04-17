@@ -129,7 +129,7 @@ There is a return button on each scene to return to main scene
 
 - *(first game mode)The player must click the correct key on a visual section of a piano, as notes are flashed on the screen. They are scored on time and accuracy. The player is timed, and once the timer runs out the level is over and their score is final. The player receives a higher score addition for longer streaks of correct answers. The player score, and number of correct answers will be displayed at the end*
 - *(second game mode)The player must play a section of a virtual piano using their keyboard, as notes move horizontally across the screen, as if they were playing sheet music. Each level is a song, and the level is over once the player finishes playing the song. The player gets a combo score for getting multiple correct in a row and also gets a score for timing the notes well. The high score is saved so the player can revist any song and attempt to beat their score.*
-- *The player can enter competitions and preform the second game mode, where the more notes and the more difficulty, the better they do. Once the player wins a competition that they have never won before, it progresses the story, and a "cut scene" is played of the story. The player will receive a judge score, if they score high enough they move on to the next round, where each competitor is given an arbitrary scoring. In the final round you see your opponents preformance to provide feedback as to how well they must do.*
+- *The player can enter competitions and preform the second game mode, where the more notes and the more difficulty, the better they do. Once the player wins a competition that they have never won before, it progresses the story, and a "cut scene" is played of the story. The player must play pieces they have learned, and defeat their opponent by draining their healthbar before they drain theirs. The opponents notes and preformance is shown, but no sound is played for them.*
 - *As the player improves, they receive money to unlock new notes, which improve their score in "competition"*
 
     
@@ -156,13 +156,19 @@ There is a return button on each scene to return to main scene
 
 *Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
 
+*The new key for a level will flash before the level begins, and the player musct input the note to begin the level*
+*The keyboard input for a piano key will be on each key as well as the note letter*
+*On the first level there will be flashing text saying "Click the flashing key to play the note shown..."*
+
 ## Presentation of Content
 
 *Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
 
+*Most of the core material will be taught through the memorization levels of the game, where the player must click notes as they flash on the screen, sometimes in short sequences.*
+
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+*You are sipping coffee at a cafe when piano thugs challenge you, you play the tutorial level to beat the thugs, you are then put on the main menu to select from options, you play the memorization game and learn new notes on the piano, you then play pieces using those notes, you then use those skills to win competitions and progress the story*
 
 ## Storyboarding
 
@@ -172,22 +178,22 @@ There is a return button on each scene to return to main scene
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+*The game should feel like you're in a casual lodge setting, where the setting is set to be different places depending on what game mode you are on. Relaxing and natural*
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+   (characters are presented in a anime visual novel fashion)
+  - *Characters 1: You, the main character. You wear a semi-casual outfit, and look swav.*
+  - *Characters 2: The piano thugs. The piano thugs are the first bad guys and wear comical leather jackets*
+  - *Characters 3: Several arbitrary looking pianists that you face in competition*
+  - *Characters 4: Your best friend who frequently needs your help getting out of trouble, he is blonde and slightly less formal*
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - *Texture 1*: Background texture that changes as the combo improves to be more colorful, starting out pitch black
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - *Environment Texture 1: The cafe scene of a piano in a cafe*
+  - *Environment Texture 2: The concert piano for official competitions*
+  - *Environment Texture 3: An outdoor piano for street competitions*
 
 
 ## Audio
@@ -196,17 +202,17 @@ There is a return button on each scene to return to main scene
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - *Menu*: *calm piano and guitar*
+  - *In competition music*: *Music played before competing*
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - *Playing a note correctly*: *The piano note played*
+  - *Incorrect note*: *A buzzer sound signify the wrong key was played*
 
 
 # Metadata
 
-* Template created by Austin Cory Bart <acbart@udel.edu>, Mark Sheriff, Alec Markarian, and Benjamin Stanley.
+* Template created by Liam Dwinnell <liamd@udel.edu>
 * Version 0.0.3
